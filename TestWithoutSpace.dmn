@@ -37,6 +37,14 @@
     <dmn:extensionElements/>
     <dmn:variable id="_5E986ECE-3829-40E2-800B-01CAF7354F6D" name="ASDASD"/>
   </dmn:inputData>
+  <dmn:inputData id="_90C029E8-0CE9-4F9B-9E47-FF1C0BABF6E2" name="abc">
+    <dmn:extensionElements/>
+    <dmn:variable id="_A5989237-72B7-4C57-8559-39F1C0B0ACAB" name="abc"/>
+  </dmn:inputData>
+  <dmn:knowledgeSource id="_B397A35C-8574-408D-8663-692F9AEAE70E" name="xyz" locationURI="">
+    <dmn:extensionElements/>
+    <dmn:type/>
+  </dmn:knowledgeSource>
   <dmn:textAnnotation id="_2A79876B-0B64-4B22-816C-4ACC1DCBB9B6" textFormat="text/plain">
     <dmn:text>TextAnnotation-1</dmn:text>
   </dmn:textAnnotation>
@@ -122,6 +130,24 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="810" y="105" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_90C029E8-0CE9-4F9B-9E47-FF1C0BABF6E2" dmnElementRef="_90C029E8-0CE9-4F9B-9E47-FF1C0BABF6E2" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="238" y="91" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_B397A35C-8574-408D-8663-692F9AEAE70E" dmnElementRef="_B397A35C-8574-408D-8663-692F9AEAE70E" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="265" y="206" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_DD46F28D-91DA-44BC-B09D-E2C14FA79FB4-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_DD46F28D-91DA-44BC-B09D-E2C14FA79FB4">
