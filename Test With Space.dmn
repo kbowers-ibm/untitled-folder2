@@ -41,12 +41,27 @@
     <dmn:extensionElements/>
     <dmn:variable id="_EEC542C5-F8D1-4A05-85BD-450F5AE6990A" name="abc"/>
   </dmn:decision>
+  <dmn:businessKnowledgeModel id="_3519CBD3-0072-4E4A-8914-82C5925BADA7" name="123">
+    <dmn:extensionElements/>
+    <dmn:variable id="_65E0C3D2-DBAD-4F62-96B8-E14505D1F9B8" name="123"/>
+    <dmn:encapsulatedLogic id="_51C64588-C2F3-4ACE-874B-FAB9AF2C3F73" kind="FEEL">
+      <dmn:literalExpression id="_7DFB8A52-454C-4E58-863C-9252C2698B97">
+        <dmn:text/>
+      </dmn:literalExpression>
+    </dmn:encapsulatedLogic>
+  </dmn:businessKnowledgeModel>
+  <dmn:decision id="_9476B7E1-07A6-4D0E-B50F-3CD4030CB634" name="456">
+    <dmn:extensionElements/>
+    <dmn:variable id="_78170238-0D39-4C49-88C4-B81233A3FF1D" name="456"/>
+  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_C30D1837-12EF-43BC-AA45-B3CBB48352B7" name="DRG">
       <di:extension>
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_974B0C8C-49CE-4D5A-BA42-9D73E0EE1BBD"/>
           <kie:ComponentWidths dmnElementRef="_360E42F8-5795-4E96-A49B-8BCB01C74B3D"/>
+          <kie:ComponentWidths dmnElementRef="_7DFB8A52-454C-4E58-863C-9252C2698B97"/>
+          <kie:ComponentWidths dmnElementRef="_51C64588-C2F3-4ACE-874B-FAB9AF2C3F73"/>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_59FE3DCC-337F-49F2-86AC-120E5E335AD5" dmnElementRef="_59FE3DCC-337F-49F2-86AC-120E5E335AD5" isCollapsed="false">
@@ -119,6 +134,24 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="654" y="296" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_3519CBD3-0072-4E4A-8914-82C5925BADA7" dmnElementRef="_3519CBD3-0072-4E4A-8914-82C5925BADA7" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="493" y="67" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_9476B7E1-07A6-4D0E-B50F-3CD4030CB634" dmnElementRef="_9476B7E1-07A6-4D0E-B50F-3CD4030CB634" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="347" y="221" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_3A954428-FD91-4298-81FC-4956D0927AE8-AUTO-TARGET" dmnElementRef="_3A954428-FD91-4298-81FC-4956D0927AE8">
