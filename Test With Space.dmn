@@ -20,10 +20,34 @@
     <dmn:extensionElements/>
     <dmn:variable id="_DADBD696-FB70-4633-9ED2-3C7D850DEB83" name="asd"/>
   </dmn:inputData>
+  <dmn:inputData id="_71B6E00F-B05F-4464-B722-0B14B00FC04F" name="Test">
+    <dmn:extensionElements/>
+    <dmn:variable id="_512EE0B4-DBC4-49DD-813D-2EC9A4618378" name="Test"/>
+  </dmn:inputData>
+  <dmn:businessKnowledgeModel id="_481B5510-505D-472E-B655-0F059A4C0F19" name="Dunno">
+    <dmn:extensionElements/>
+    <dmn:variable id="_567E1D19-CB78-406C-AA0A-29C0BFAC0F9D" name="Dunno"/>
+    <dmn:encapsulatedLogic id="_360E42F8-5795-4E96-A49B-8BCB01C74B3D" kind="FEEL">
+      <dmn:literalExpression id="_974B0C8C-49CE-4D5A-BA42-9D73E0EE1BBD">
+        <dmn:text/>
+      </dmn:literalExpression>
+    </dmn:encapsulatedLogic>
+  </dmn:businessKnowledgeModel>
+  <dmn:inputData id="_B0DE0EAB-74B2-4302-AD15-3AE11B381E41" name="xyz">
+    <dmn:extensionElements/>
+    <dmn:variable id="_106E97A7-D9CA-4685-9812-3C447455762F" name="xyz"/>
+  </dmn:inputData>
+  <dmn:decision id="_6D4807B9-DE11-4D86-BC48-162B98BC82F1" name="abc">
+    <dmn:extensionElements/>
+    <dmn:variable id="_EEC542C5-F8D1-4A05-85BD-450F5AE6990A" name="abc"/>
+  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_C30D1837-12EF-43BC-AA45-B3CBB48352B7" name="DRG">
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_974B0C8C-49CE-4D5A-BA42-9D73E0EE1BBD"/>
+          <kie:ComponentWidths dmnElementRef="_360E42F8-5795-4E96-A49B-8BCB01C74B3D"/>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_59FE3DCC-337F-49F2-86AC-120E5E335AD5" dmnElementRef="_59FE3DCC-337F-49F2-86AC-120E5E335AD5" isCollapsed="false">
         <dmndi:DMNStyle>
@@ -59,6 +83,42 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="824" y="182" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_71B6E00F-B05F-4464-B722-0B14B00FC04F" dmnElementRef="_71B6E00F-B05F-4464-B722-0B14B00FC04F" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="838" y="122" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_481B5510-505D-472E-B655-0F059A4C0F19" dmnElementRef="_481B5510-505D-472E-B655-0F059A4C0F19" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="1394" y="108" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_B0DE0EAB-74B2-4302-AD15-3AE11B381E41" dmnElementRef="_B0DE0EAB-74B2-4302-AD15-3AE11B381E41" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="614" y="187" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_6D4807B9-DE11-4D86-BC48-162B98BC82F1" dmnElementRef="_6D4807B9-DE11-4D86-BC48-162B98BC82F1" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="654" y="296" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_3A954428-FD91-4298-81FC-4956D0927AE8-AUTO-TARGET" dmnElementRef="_3A954428-FD91-4298-81FC-4956D0927AE8">
