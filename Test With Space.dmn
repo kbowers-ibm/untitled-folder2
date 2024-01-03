@@ -24,10 +24,22 @@
     <dmn:extensionElements/>
     <dmn:variable id="_512EE0B4-DBC4-49DD-813D-2EC9A4618378" name="Test"/>
   </dmn:inputData>
+  <dmn:businessKnowledgeModel id="_481B5510-505D-472E-B655-0F059A4C0F19" name="Dunno">
+    <dmn:extensionElements/>
+    <dmn:variable id="_567E1D19-CB78-406C-AA0A-29C0BFAC0F9D" name="Dunno"/>
+    <dmn:encapsulatedLogic id="_360E42F8-5795-4E96-A49B-8BCB01C74B3D" kind="FEEL">
+      <dmn:literalExpression id="_974B0C8C-49CE-4D5A-BA42-9D73E0EE1BBD">
+        <dmn:text/>
+      </dmn:literalExpression>
+    </dmn:encapsulatedLogic>
+  </dmn:businessKnowledgeModel>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_C30D1837-12EF-43BC-AA45-B3CBB48352B7" name="DRG">
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_974B0C8C-49CE-4D5A-BA42-9D73E0EE1BBD"/>
+          <kie:ComponentWidths dmnElementRef="_360E42F8-5795-4E96-A49B-8BCB01C74B3D"/>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_59FE3DCC-337F-49F2-86AC-120E5E335AD5" dmnElementRef="_59FE3DCC-337F-49F2-86AC-120E5E335AD5" isCollapsed="false">
         <dmndi:DMNStyle>
@@ -72,6 +84,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="838" y="122" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_481B5510-505D-472E-B655-0F059A4C0F19" dmnElementRef="_481B5510-505D-472E-B655-0F059A4C0F19" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="1394" y="108" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_3A954428-FD91-4298-81FC-4956D0927AE8-AUTO-TARGET" dmnElementRef="_3A954428-FD91-4298-81FC-4956D0927AE8">
