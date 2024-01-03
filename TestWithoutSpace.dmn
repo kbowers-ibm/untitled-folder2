@@ -37,6 +37,10 @@
     <dmn:extensionElements/>
     <dmn:variable id="_9C8EE7DF-0229-4BA4-B3BB-3C041BE1AE7F" name="TESTING"/>
   </dmn:inputData>
+  <dmn:knowledgeSource id="_E1B57CDF-841B-400E-9522-05123A1AF14A" name="ASDASD" locationURI="">
+    <dmn:extensionElements/>
+    <dmn:type/>
+  </dmn:knowledgeSource>
   <dmn:textAnnotation id="_2A79876B-0B64-4B22-816C-4ACC1DCBB9B6" textFormat="text/plain">
     <dmn:text>TextAnnotation-1</dmn:text>
   </dmn:textAnnotation>
@@ -122,6 +126,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="920" y="126" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_E1B57CDF-841B-400E-9522-05123A1AF14A" dmnElementRef="_E1B57CDF-841B-400E-9522-05123A1AF14A" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="648" y="68" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_DD46F28D-91DA-44BC-B09D-E2C14FA79FB4-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_DD46F28D-91DA-44BC-B09D-E2C14FA79FB4">
