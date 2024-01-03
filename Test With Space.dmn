@@ -16,6 +16,10 @@
       <dmn:requiredInput href="#_59FE3DCC-337F-49F2-86AC-120E5E335AD5"/>
     </dmn:informationRequirement>
   </dmn:decision>
+  <dmn:inputData id="_E1811679-89EE-4B30-BA59-EFEB6E3A666F" name="asd">
+    <dmn:extensionElements/>
+    <dmn:variable id="_DADBD696-FB70-4633-9ED2-3C7D850DEB83" name="asd"/>
+  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_C30D1837-12EF-43BC-AA45-B3CBB48352B7" name="DRG">
       <di:extension>
@@ -46,6 +50,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="1146" y="256" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_E1811679-89EE-4B30-BA59-EFEB6E3A666F" dmnElementRef="_E1811679-89EE-4B30-BA59-EFEB6E3A666F" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="824" y="182" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_3A954428-FD91-4298-81FC-4956D0927AE8-AUTO-TARGET" dmnElementRef="_3A954428-FD91-4298-81FC-4956D0927AE8">
